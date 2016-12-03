@@ -58,3 +58,4 @@ RUN apt-get clean && \
 
 RUN apt-get install -y --no-install-recommends ffmpeg
 
+RUN apt-get install -y --no-install-recommends libfuse-dev
